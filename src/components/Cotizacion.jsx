@@ -29,7 +29,7 @@ const Cotizacion = ({cotizacion}) => {
         El precio mas alto del dia es: <span>{cotizacion.HIGHDAY}</span>
       </Info>
       <Info>
-        El precio mas alto del dia es: <span>{cotizacion.LOWDAY}</span>
+        El precio mas bajo del dia es: <span>{cotizacion.LOWDAY}</span>
       </Info>
       <Info>
         Varicion en las ultimas 24 horas:
