@@ -32,7 +32,7 @@ const Cotizacion = ({cotizacion}) => {
         El precio mas bajo del dia es: <span>{cotizacion.LOWDAY}</span>
       </Info>
       <Info>
-        Varicion en las ultimas 24 horas:
+        Variacion en las ultimas 24 horas:
         <span>{cotizacion.CHANGEPCT24HOUR}</span>
       </Info>
       <Info>
